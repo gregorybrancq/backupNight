@@ -1,12 +1,11 @@
 # backupNight
 Backup everything during the night when computer is not used.
 
-Once you defined a date to wake up computer :
- - the program creates a specific file to indicate it works
+Once you defined an hour to wake up computer :
+ - the program creates a specific file to indicate it's running
  - it shutdowns screens to reduce power consuming
- - it computes backups
- - it deletes the working specific file
- - it suspends computer
+ - it computes backups (with the good Rsnapshot tool)
+ - it sends status by email
  
  Differents options are available :
  - --debug : print debug information
